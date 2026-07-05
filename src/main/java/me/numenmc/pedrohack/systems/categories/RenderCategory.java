@@ -10,7 +10,6 @@ public class RenderCategory extends ModuleCategory {
     public EntityEsp ENTITY_ESP = add(new EntityEsp());
     public StorageEsp STORAGE_ESP = add(new StorageEsp());
     public Nametags NAMETAGS = add(new Nametags());
-    public TunnelEsp TUNNEL_ESP = add(new TunnelEsp());
     public BlockEsp BLOCK_ESP = add(new BlockEsp());
 
     public RenderCategory() {
