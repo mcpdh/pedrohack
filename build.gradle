@@ -88,3 +88,9 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+tasks.register('copyJavadocToSite', Copy) {
+	dependsOn javadoc
+	from "$buildDir/docs/javadoc"
+	into "$buildDir/site"
+}
