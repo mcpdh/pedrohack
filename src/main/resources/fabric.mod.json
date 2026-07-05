@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "pedrohack",
+	"version": "${version}",
+	"name": "Pedrohack",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"numenMC"
+	],
+	"contact": {
+		"homepage": "https://github.com/florianreuth/",
+		"sources": "https://github.com/florianreuth/fabric-imgui-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/pedrohack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"me.numenmc.pedrohack.Pedrohack"
+		]
+	},
+	"mixins": [
+		"pedrohack.mixins.json"
+	],
+	"accessWidener": "pedrohack.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

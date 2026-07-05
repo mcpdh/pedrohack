@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "me.numenmc.pedrohack.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BrightnessGetterMixin",
+    "CameraMixin",
+    "ClientLevelMixin",
+    "ClientPacketListenerMixin",
+    "CommandSuggestionsMixin",
+    "ConnectionMixin",
+    "EntityRendererMixin",
+    "GameRendererMixin",
+    "KeyboardHandlerMixin",
+    "KeyMappingAccessor",
+    "MinecraftMixin",
+    "MouseHandlerMixin",
+    "PlayerInfoMixin",
+    "PlayerTeamMixin",
+    "ScreenMixin",
+    "ShaderManagerMixin",
+    "StringDecomposerMixin",
+
+    "imgui.GameRendererMixin",
+    "imgui.MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
