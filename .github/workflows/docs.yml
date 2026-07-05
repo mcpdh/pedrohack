@@ -21,11 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: setup jdk
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: 17
+          java-version: '25'
+          distribution: 'microsoft'
 
       - name: Generate Javadoc
         run: ./gradlew javadoc
