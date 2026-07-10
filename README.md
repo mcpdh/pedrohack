@@ -7,6 +7,8 @@
   <img alt="Release" src="https://img.shields.io/github/v/release/mcpdh/pedrohack">
 </p>
 
+<img width="1560" height="862" alt="image" src="https://github.com/user-attachments/assets/4914158a-8fc5-4b9d-8a29-96227212279d" />
+
 ## Building
 1. Clone this repository
 2. Run `./gradlew build`
